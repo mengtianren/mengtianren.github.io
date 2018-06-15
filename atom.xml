@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-15T03:36:16.001Z</updated>
+  <updated>2018-06-15T06:04:04.278Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>koa教程</title>
+    <link href="http://yoursite.com/2018/06/15/koa%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/06/15/koa教程/</id>
+    <published>2018-06-15T05:59:35.000Z</published>
+    <updated>2018-06-15T06:04:04.278Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="koa2-sequelize-mysql"><a href="#koa2-sequelize-mysql" class="headerlink" title="koa2-sequelize-mysql"></a>koa2-sequelize-mysql</h1><h1 id="这是一个koa-sequelize-操作mysql的一个api接口demo"><a href="#这是一个koa-sequelize-操作mysql的一个api接口demo" class="headerlink" title="这是一个koa+sequelize 操作mysql的一个api接口demo"></a>这是一个koa+sequelize 操作mysql的一个api接口demo</h1><ul><li>-koa api框架</li><li>-koa-router 路由模块</li><li>-koa-logger 打印错误模块</li><li>-koa-session 生成用户session文件</li><li>-koa-koa-bodyparser 解析post数据文件</li><li>-sequelize 操作数据库文件,由于本次使用的是mysql数据库，所以依赖mysql2模块</li><li>下载完成之后使用npm或者yarn安装依赖</li><li>修改db文件夹里面config文件里面数据库配置 默认链接本机mysql数据库</li><li><a href="https://github.com/mengtianren/koa2-sequelize-mysql" target="_blank" rel="noopener">https://github.com/mengtianren/koa2-sequelize-mysql</a></li></ul><h1 id="接口地址："><a href="#接口地址：" class="headerlink" title="接口地址："></a>接口地址：</h1><ul><li>-用户注册 POST : <a href="http://127.0.0.1:8081/api/v1/user/register" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/user/register</a>  –params : {phone, password, <em>icon, </em>is_admin}</li><li>-用户登录 POST : <a href="http://127.0.0.1:8081/api/v1/user/login" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/user/login</a>   –params : {phone, password}</li><li>-用户列表 GET : <a href="http://127.0.0.1:8081/api/v1/user/list" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/user/list</a>  –params : 无  {只有用户登陆后，并且为管理员权限时候才能访问}</li><li>-用户详情 GET : <a href="http://127.0.0.1:8081/api/v1/user/detail" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/user/detail</a>  –params : {id}</li><li>-资料修改 POST : <a href="http://127.0.0.1:8081/api/v1/user/set" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/user/set</a>  –params : {name, email, icon}{只有登录之后才能修改}</li><li>-用户退出 GET : <a href="http://127.0.0.1:8081/api/v1/user/loginout" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/user/loginout</a></li></ul><ul><li>-文章列表 GET : <a href="http://127.0.0.1:8081/api/v1/blog/list" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/blog/list</a>  –params : 无</li><li>-文章添加 POST : <a href="http://127.0.0.1:8081/api/v1/blog/add" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/blog/add</a>  –params : {title, content} {必须为登录后才能添加}</li><li>-文章详情 GET : <a href="http://127.0.0.1:8081/api/v1/blog/detail" target="_blank" rel="noopener">http://127.0.0.1:8081/api/v1/blog/detail</a> –params : {id}</li></ul><h1 id="后续接口开发中。。。。。"><a href="#后续接口开发中。。。。。" class="headerlink" title="后续接口开发中。。。。。"></a>后续接口开发中。。。。。</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;koa2-sequelize-mysql&quot;&gt;&lt;a href=&quot;#koa2-sequelize-mysql&quot; class=&quot;headerlink&quot; title=&quot;koa2-sequelize-mysql&quot;&gt;&lt;/a&gt;koa2-sequelize-mysql&lt;/h1&gt;&lt;
+      
+    
+    </summary>
+    
+    
+      <category term="node" scheme="http://yoursite.com/tags/node/"/>
+    
+      <category term="koa" scheme="http://yoursite.com/tags/koa/"/>
+    
+      <category term="sequelize" scheme="http://yoursite.com/tags/sequelize/"/>
+    
+      <category term="mysql" scheme="http://yoursite.com/tags/mysql/"/>
+    
+  </entry>
   
   <entry>
     <title>new article</title>
